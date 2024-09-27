@@ -1,0 +1,71 @@
+﻿/* styles.css */
+
+/* Container Styling */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color:cyan;
+}
+
+/* Heading (h1) Styling */
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Input Field Styling */
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 8px
+    
+}
+
+/* Button Styling */
+button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #005ea6;
+    }
+
+/* Task List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+
+    ul li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        /* Add margin to separate buttons from task entry */
+        margin-bottom: 10px;
+    }
+
+        /* Style for Edit and Delete buttons */
+        ul li button {
+            /* Add individual margin to create space between buttons */
+            margin-right: 10px;
+        }
